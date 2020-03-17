@@ -1,0 +1,18 @@
+ARRAY
+Array pada javascript selalu dimulai dari 0.
+Array tidak hanya bisa menyimpan satu jenis data.
+Pada array urutan sangat berpengaruh.
+Menghapus atau menambah dari belakang sintax nya array.push(isi apa yang ingin ditambah). array.pop().
+Menghapus atau menambah dari depan sintax nya array.unshift(isi apa yang ingin ditambah). array.shift().
+Yang sering digunakan adalah penambahan dan penghapusan dari belakang.
+
+OBJECT
+Object untuk menyimpan, value yang dimasukkan selalu ada key nya.
+Pada object urutan tidak berpengaruh.
+Untuk memanggil data kita panggil key nya.
+
+DESTRUCTURING
+Memecah objek dan memanggil apa yang kita butuh.
+
+let salary of
+untuk loop array
