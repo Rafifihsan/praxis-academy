@@ -1,0 +1,9 @@
+function modifyText(new_text) {
+    const t2 = document.getElementById("t2");
+    t2.firstChild.nodeValue = new_text;    
+  }
+   
+  // Add event listener to table with an arrow function
+  const el = document.getElementById("outside");
+  el.addEventListener("click", () => { modifyText("four"); }, false);
+  
