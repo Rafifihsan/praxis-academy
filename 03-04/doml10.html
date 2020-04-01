@@ -1,0 +1,18 @@
+
+<div id="aa">Hi</div>
+<div id="B">Dude</div>
+
+<script>
+var div_a = document.getElementById('aa');
+var text_c = document.createElement('span');
+text_c.textContent = "rafif";
+
+div_a.parentNode.replaceChild(text_c,div_a);
+
+var div_b = document.getElementById('B').firstChild;
+var text_d = document.createElement('span');
+text_d.textContent = 'jelek';
+div_b.parentNode.replaceChild(text_d,div_b)
+
+
+</script>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<ul>
+  <li>Hi</li>
+  <li>there</li>
+</ul>
+
+<script>
+
+var ulElementChildNodes = document.querySelector('ul').childNodes;
+
+document.write(ulElementChildNodes); //logs an array like list of all nodes inside of the ul
+Array.prototype.forEach.call(ulElementChildNodes, function cal(item){
+document.write(item);
+})
+
+
+
+</script>
+</body>
+</html>

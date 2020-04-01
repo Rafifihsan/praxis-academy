@@ -1,0 +1,14 @@
+<div id="box">
+    <span>foo</span>
+    <span>bar</span>
+    <span>baz</span>
+</div>
+
+<script>
+    const box = document.getElementById("box");
+    eachNodae(box, function(node){
+        if(null != node.textContent){
+            console.log(node.textContent);
+        }
+    })
+</script>

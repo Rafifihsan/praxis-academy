@@ -1,0 +1,23 @@
+replace 1
+<p>
+  rafif ihsan jay  
+</p><br>
+
+<a>
+    ihan jaya
+</a>
+
+<script>
+    var selector = document.querySelector('p');
+    var text = document.createElement('span');
+   var a =  text.textContent = "replace name to rafif";
+    text.style.color = 'red';
+    selector.parentNode.replaceChild(text,selector);
+    
+    var p_ID = document.querySelector('a');
+    p_ID.style.color = 'blue';
+    var text2 = document.createTextNode('afif');
+    p_ID.parentNode.replaceChild(text2,p_ID)
+
+
+</script>

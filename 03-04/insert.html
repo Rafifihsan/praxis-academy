@@ -1,0 +1,15 @@
+<ul>
+    <li>2</li>
+    <li>3</li>
+</ul>
+
+<script>
+    var text1 = document.createTextNode('1');
+    var text = document.createElement('li');
+    text.appendChild(text1);
+
+    var cr = document.querySelector('ul');
+
+    cr.insertBefore(text,cr.firstChild);
+    console.log(document.body.innerHTML);
+</script>
